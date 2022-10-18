@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: aquamarine;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+h1:hover {
+  color: red;
+  transition: 1s;
+}
+
+ul li {
+  padding: 4px;
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 0 26px;
+  font-size: 20px;
+  border: 2px solid #000;
+  border-radius: 40px;
+}
+
+ul li:hover a {
+  color: #000;
+  background-color: rgb(247, 115, 7);
+  transition: 0.5s;
+  cursor: grabbing;
+}
+
+.picture-logo {
+  background-image: url('https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
